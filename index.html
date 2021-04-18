@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Rasmus Haahr</title>
 </head>
 <body>
@@ -12,7 +14,7 @@
     <div class="site-container">
      
     <aside>
-    <h1 id="side-title">Rasmus Haahr Pedersen</h1>
+    <h1  data-aos="fade-up" id="side-title">Rasmus Haahr Pedersen</h1>
 
     <img id="mig-img"src="img/mig.jfif" alt="Rasmus Haahr Pedersen">
 
@@ -27,7 +29,7 @@ prøve nye ting. Mit mål som Webdesigner, er at udvikle for brugeren, for at sk
 Personligt er jeg en indadvendt men humoristisk person, der elsker at klatre og hænge ud med venner og familie.</p>
 
 
-<div id="lister">
+<div data-aos="fade-up" id="lister">
     <p><strong>Hobbyer:</strong> <i>Klatring, Film, Sport, Hygge-Gaming, D&D, Outdoor</i></p>
     <p><strong>Kendte Værktøjer:</strong> <i>Photoshop, Illustrator, Primiere Pro, After Effect, Animate CC, In-design, Figma, Canva, Visual studio</i></p>
     <p><strong>Udvikler sprog:</strong> <i>Javascript, CSS, HTML, React, Node.js, ASP.NET MVC</i></p>
@@ -35,10 +37,10 @@ Personligt er jeg en indadvendt men humoristisk person, der elsker at klatre og 
 </div>
 </aside>
     <section id="side-indhold">
-        <h2 style="text-align: center;"> Animationer</h2>
+        <h2 data-aos="fade-up" style="text-align: center;"> Animationer</h2>
 <div id="ani-container">
     
-    <div class="animation-video">
+    <div data-aos="fade-up" class="animation-video">
         <h3>Due i en stue</h3>
         <iframe  src="https://www.youtube.com/embed/Ta8TCnZHk2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -60,8 +62,8 @@ Personligt er jeg en indadvendt men humoristisk person, der elsker at klatre og 
         <iframe  src="https://www.youtube.com/embed/meAFat_6M30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
-<h2>Grafik</h2>
-<div id="grafik-container">
+<h2 data-aos="fade-up" >Grafik</h2>
+<div data-aos="fade-up" id="grafik-container">
     <div class="grafik">
 <h3>Aarhus Fremad - Eksempler</h3>
 <img class="grafik-img" src="img/kampdagpåhjemmebane.png" alt="Rasmus Haahr Pedersen">
@@ -81,8 +83,8 @@ Personligt er jeg en indadvendt men humoristisk person, der elsker at klatre og 
       
             </div>
 </div>
-<div class="kodning">
-<h2>Kodning</h2>
+<div data-aos="fade-up" class="kodning">
+<h2 data-aos="fade-up">Kodning</h2>
 <div id="kodning-container">
    <p> <a href="https://haahr2111.github.io/stanley/">Filmdata fra API</a></p>
     <p><a href="https://carpenterjoseph.github.io/MargaritaMania/">Progressive Web app</a></p>
@@ -103,5 +105,6 @@ Personligt er jeg en indadvendt men humoristisk person, der elsker at klatre og 
     </div>
 </footer>
 </div>
+<script> AOS.init();</script>
 </body>
 </html>
