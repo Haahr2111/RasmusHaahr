@@ -38,7 +38,7 @@ a:hover {
    
 }
 header {
-    background-color: yellow;
+    background-color: white;
     grid-area: header;
     padding:10px;
     
@@ -118,7 +118,7 @@ background-color: springgreen;
 }
 
 footer {
-    background-color: yellow;
+    background-color: white;
     grid-area: footer;
     padding:10px;
 }
